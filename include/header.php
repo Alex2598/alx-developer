@@ -95,7 +95,7 @@
 		<img id="power" style="position: fixed; z-index:99; top: 0; right: 0; border: 0;" src="imagenes/power.png" alt="Power by A L X Developer">
 			<nav >
 				<div class="nav-wrapper grey darken-4">
-					<a href="http://alx-developer.esy.es" class="brand-logo center text-logo-nav">
+					<a href="/" class="brand-logo center text-logo-nav">
 						<span id="logotipo" style="display: none; ">
 				      	<i class="material-icons" style="margin-left: -15%; margin-right:-3px; margin-top: 0; margin-bottom:0;"><img alt="Logo A L X Developer" id="imagen-logo" src="imagenes/logo.png"  style="margin: 10px;"></i>
 						 <spans style="margin-left: -13px;" >A L X D e v e l o p e r</span>

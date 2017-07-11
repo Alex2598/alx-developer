@@ -15,11 +15,11 @@
 		
 		public function Navigation(){
 			if (strpos($this->url, 'lenguajes')) {
-				return 	"	<li><a href='inicio'>Home</a></li>
+				return 	"	<li><a href='/'>Home</a></li>
 						    <li style='background-color:#FFB800;'><a class='black-text' href='lenguajes'>Lenguajes</a></li>
 						    <li><a href='contacto'>Contacto</a></li>";
 			} elseif (strpos($this->url, 'contacto')) {
-				return 	"	<li><a href='inicio'>Home</a></li>
+				return 	"	<li><a href='/'>Home</a></li>
 						    <li><a href='lenguajes'>Lenguajes</a></li>
 						    <li style='background-color:#FFB800;'><a  class='black-text' href='contacto'>Contacto</a></li>";
 			} else{
