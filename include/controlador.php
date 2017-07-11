@@ -3,7 +3,7 @@
 if (!isset($_GET['p'])) {
 	$contenido = 'include/inicio.php';
 	$titulo = 'A L X Developer';
-	$descripcion = 'Este sitio esta fuera de servicio.';
+	$descripcion = 'Mi nombre es Alejandro López Arreola, soy desarrollador Junior, conoce un poco sobre mí.';
 }  else if ($_GET['p']=='lenguajes') {
 	$contenido = 'include/lenguajes.php';
 	$titulo = 'A L X Developer | Lenguajes de Programacion';
