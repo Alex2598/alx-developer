@@ -18,12 +18,6 @@
 				return 	"	<li><a href='/'>Home</a></li>
 						    <li style='background-color:#FFB800;'><a class='black-text' href='lenguajes'>Lenguajes</a></li>
 						    <li><a href='contacto'>Contacto</a></li>";
-			?>
-				<script type="text/javascript">
-					$("#logo-official").removeClass("logotipo");
-				</script>
-
-			<?php
 			} elseif (strpos($this->url, 'contacto')) {
 				return 	"	<li><a href='/'>Home</a></li>
 						    <li><a href='lenguajes'>Lenguajes</a></li>

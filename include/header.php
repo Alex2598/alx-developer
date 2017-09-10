@@ -3,16 +3,32 @@
 <html>
 <head>
 	<title><?php print($titulo); ?></title>
+	<meta charset="utf-8">
+	<meta name="description" content='<?php print($descripcion); ?>'>
+	<meta name="keywords" content='<?php print($palabras); ?>'>
+	<meta name="author" content="Alejandro López Arreola">
+	<meta name="copyright" content="Alejandro López Arreola" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta lang="es">
+	<meta name="robots" content="index"/>
+	<meta name="robots" content="follow"/>
+	<mata property="og:title" content='<?php print($titulo); ?>'/>
+	<meta property="og.type" content="website"/>
+	<meta property="og:description" content='<?php print($descripcion); ?>'/>
+	<meta property="og:url" content="https://alx-developer.herokuapp.com">
+	<meta property="og:image" content="https://alx-developer.herokuapp.com/imagenes/foto.png">
+	<meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ale_developerjr">
+    <meta name="twitter:creator" content="@ale_developerjr">
+    <meta name="twitter:title" content='<?php print($titulo); ?>'>
+    <meta name="twitter:url" content="https://alx-developer.herokuapp.com">
+    <meta name="twitter:image" content="https://alx-developer.herokuapp.com/imagenes/foto.png">
+    <meta name="twitter:description" content='<?php print($descripcion); ?>'>
 	<link rel="stylesheet" type="text/css" href="css/materialize.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="shortcut icon" type="image/x-icon" href="imagenes/icono.ico" />
 	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-	<meta name="author" content="Alejandro López A.">
-	<meta name="description" content='<?php print($descripcion); ?>'>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<meta lang="es">
 </head>
 <body style="overflow-x: hidden;">
 		
