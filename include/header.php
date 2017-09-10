@@ -4,7 +4,7 @@
 <head>
 	<title><?php print($titulo); ?></title>
 	<link rel="stylesheet" type="text/css" href="css/materialize.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="shortcut icon" type="image/x-icon" href="imagenes/icono.ico" />
 	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
@@ -14,7 +14,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta lang="es">
 </head>
-<body>
+<body style="overflow-x: hidden;">
 		
 		<div class="navbar-fixed">
 		<div id="power"></div>

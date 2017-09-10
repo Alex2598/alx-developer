@@ -3,9 +3,9 @@
 		<div class="container">
 			<div id="logo-header-container" class="hide-on-large-only">
 				<div id="logo-image"></div>
-				<span id="logo-text" class="text-logo-nav white-text">A L X Developer</span>
+				<span id="logo-text" class="text-logo-nav white-text">A L X <span class="text-logo-nav" id="text_two">D e v e l o p e r</span></span>
 			</div>
-			<div class="hide-on-med-only hide-on-small-only" style="position: relative;"><img  id="logo-image-two" src="imagenes/logo.svg" style="width: 220px; margin-left: 15%;"><span style="margin-left: -35px; position: absolute; margin-top: 50px; font-size: 70px;" id="text-logo-two" class="text-logo-nav white-text">A L X Developer</span></div>
+			<div class="hide-on-med-only hide-on-small-only" style="position: relative;"><img  id="logo-image-two" src="imagenes/logo.svg" style="width: 220px; margin-left: 15%;"><span style="margin-left: -35px; position: absolute; margin-top: 50px; font-size: 70px;" id="text-logo-two" class="text-logo-nav white-text">A L X D e v e l o p e r</span></div>
 		</div>
       	<div class="parallax grey darken-4" style=""></div>
     </div>

@@ -14,8 +14,8 @@
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Menú</h5>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="/lenguajes">Lenguajes</a></li>
-                  <li><a class="grey-text text-lighten-3" href="/contacto">Contacto</a></li>
+                  <li><a class="grey-text text-lighten-3" href="lenguajes">Lenguajes</a></li>
+                  <li><a class="grey-text text-lighten-3" href="contacto">Contacto</a></li>
                 </ul>
               </div>
             </div>

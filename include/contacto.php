@@ -7,36 +7,46 @@
     </div>
     <div class="container">
     	<div class="row">
-			<h2 class="center">Preguntame lo que quieras!</h2>
-      <a href="#developers"><h4 class="center">¿Ya eres desarrollador?</h4></a>
-			<form  id="form">
-                    <div class="row">
-                      <div class="input-field col s6">
-                        <input placeholder="Nombre" id="name" name="name" type="text" class="validate">
-                        <label for="name">Nombre</label>
+  		  <div class="col s12 m12">
+            <h2 class="center">Preguntame lo que quieras!</h2>
+        <a href="#developers"><h4 class="center">¿Ya eres desarrollador?</h4></a>
+               <form  id="form">
+                      <div class="row">
+                        <div class="input-field col s6">
+                          <input placeholder="Nombre" id="name" name="name" type="text" class="validate">
+                          <label for="name">Nombre</label>
+                        </div>
+                        <div class="input-field col s6">
+                          <input placeholder="Correo electronico" id="email" name="email" type="email" class="validate">
+                          <label for="email" data-error="Correo electronico incorrecto" data-success="Correo electronico correcto">Correo electronico</label>
+                          <p></p>
+                        </div>
                       </div>
-                      <div class="input-field col s6">
-                        <input placeholder="Correo electronico" id="email" name="email" type="email" class="validate">
-                        <label for="email" data-error="Correo electronico incorrecto" data-success="Correo electronico correcto">Correo electronico</label>
-                        <blockquote style="border-left: 5px solid #212121;">Te recomiendo poner un correo electronico activo, ya que allí recibiras mi respuesta. <i class="em em-wink"></i></blockquote>
-                        <p></p>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <textarea placeholder="Escriba su mensaje" id="message" name="message" class="materialize-textarea"></textarea>
+                          <label for="message">Escriba su mensaje</label>
+                        </div>
                       </div>
-                    </div>
-                    <div class="row">
-                      <div class="input-field col s12">
-                        <textarea placeholder="Escriba su mensaje" id="message" name="message" class="materialize-textarea"></textarea>
-                        <label for="message">Escriba su mensaje</label>
-                      </div>
-                    </div>
-                    
-                    <input class="btn waves-effect waves-light grey darken-4 " type="button" onclick="javascript:SendMessage();" value="Enviar">
-                  </form>
+                      
+                      <input class="btn waves-effect waves-light grey darken-4 " type="button" onclick="javascript:SendMessage();" value="Enviar">
+                    </form>
+             </div>
+        </div>
 
-    		<h2 class="center">También puedes encontrarme en...</h2>
-    		<p class="center"><a href="https://twitter.com/ale_developerjr" target="black"><img align="Twitter Page" src="imagenes/twitter.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/alejadro.lopez.arreola/" target="black"><img alt="Instagram Page" src="imagenes/instagram.png"></a></p>
-
-
-    	</div>
+        <div class="row">
+        <div class="col s12 m12">
+          <h4 class="center">También puedes encontrarme en...</h4>
+          <p class="center">
+            <a href="https://twitter.com/ale_developerjr" target="blank">
+              <img alt="Twitter Page" src="imagenes/twitter.png" style="width: 10%;">
+            </a>
+            <a href="https://www.instagram.com/alejadro.lopez.arreola/" target="blank">
+              <img alt="Instagram Page" style="margin-left: 10px; width: 10%;" src="imagenes/instagram.png">
+            </a>
+          </p>
+        </div>
+      </div>
 
      
 
@@ -110,10 +120,8 @@
           }
 
         </script>
-</section>
 
-<section>
-   <div class="parallax-container"  id="developers">
+      <div class="parallax-container"  id="developers">
             <div class="container  grey darken-4 white-text center" style="position: relative; top: 25%;">
               <h2 style="padding: 15px;" class="text_parts">Para desarrolladores</h2>
             </div>
@@ -121,7 +129,7 @@
       </div>
 
       <div class="container">
-        <h2 class="center">¿Eres programador Junior?</h2>
+        <h3 class="center">¿Eres programador Junior?</h3>
         
        <div class="row">
           <div class="col s12 m6">
@@ -152,5 +160,4 @@
           </div>
        </div>
       </div>
-</section>
 
