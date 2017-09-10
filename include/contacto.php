@@ -33,9 +33,7 @@
                   </form>
 
     		<h2 class="center">También puedes encontrarme en...</h2>
-    		<h5 style="text-align: justify;">Te recomiendo primero contactarme por medio de mi correo electronico para que aclaremos dudas, y de ser necesario te agregue a Facebook, mi respuesta la tendras en un lapso no mayor a 24 horas, en cambio, si decides contactarme directamente por medio de Facebook, puede que no te responda.<i class="em em-smirk"></i></h5>
-
-    		<p class="center"><a href="https://www.facebook.com/lopez.arreola.alejandro" target="black"><img align="Facebook Page" src="imagenes/facebook.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/alejadro.lopez.arreola/" target="black"><img alt="Instagram Page" src="imagenes/instagram.png"></a></p>
+    		<p class="center"><a href="https://twitter.com/ale_developerjr" target="black"><img align="Twitter Page" src="imagenes/twitter.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/alejadro.lopez.arreola/" target="black"><img alt="Instagram Page" src="imagenes/instagram.png"></a></p>
 
 
     	</div>
@@ -52,11 +50,65 @@
               
             </div>
         </div>
+
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+              <h4>Por favor, completa todos los campos.</h4>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+             </div>
+        </div>
     </div>
 
     <script type="text/javascript">
 
-        eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('g n(a){i=/^([a-d-c-P\\.\\-])+\\@(([a-d-c-9\\-])+\\.)+([a-d-c-9]{2,4})+$/;5(!i.w(a)){o v}3{o u}}g t(){k=8.b(\'s\').f;7=8.b(\'r\').f;p=8.b(\'I\').f;5(k.e==0||7.e==0||p.e==0){6("h m, x y z A.")}3 5(!n(7)){6("h m, B 7 C D.")}3{$.E({F:\'G\',H:\'q/J.K\',L:$(\'#l\').M(),N:g(a){5(a==0){6("O j Q.")}3 5(a==1){$(\'#R\').S(\'T\');8.b("l").U()}3 5(a==2){6("V. 7 j W.")}3{6("X Y "+a)}}})}}',61,61,'|||else||if|alert|correo|document|||getElementById|Z0|zA|length|value|function|Por|expr|no|nombre|form|favor|validarEmail|return|mensaje|include|email|name|SendMessage|true|false|test|complete|todos|los|campos|ingrese|electronico|valido|ajax|type|POST|url|message|send|php|data|serialize|success|Variables|9_|definidas|modal2|modal|open|reset|Var|definida|Otro|error'.split('|'),0,{}))
+
+          function validarEmail( email ) {
+           expr = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+          if ( !expr.test(email) ){
+            return false;
+          } else{
+            return true;
+          }
+          }
+          
+          function SendMessage(){
+
+            nombre = document.getElementById('name').value;
+            correo = document.getElementById('email').value;
+            mensaje = document.getElementById('message').value;
+
+            if (nombre.length == 0 || correo.length == 0 || mensaje.length == 0) {
+              $('#modal3').modal('open');
+            } else if(!validarEmail(correo)){
+              alert("Por favor, ingrese correo electronico valido.");
+            } else{
+              $.ajax({
+                type: 'POST',
+                url: 'php/send.php',
+                data: $('#form').serialize(),
+
+
+                success:function(respuesta){
+                    if (respuesta==0) {
+                        alert("Variables no definidas.")
+                    } else  if(respuesta==1){
+                      $('#modal2').modal('open');
+                        document.getElementById("form").reset();
+                    } else if(respuesta==2){
+                        alert("Var. correo no definida.");
+                    } else{
+                      alert("Otro error "+respuesta);
+                    }
+                }
+
+
+            });
+            }
+
+          }
+
         </script>
 </section>
 
