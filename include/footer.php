@@ -37,10 +37,10 @@
          });
           $(document).ready(function(){
               var URLactual = window.location.pathname;
-              if(URLactual === 'lenguajes'){
+              if(URLactual === '/lenguajes'){
                  $("logo-official").removeClass("logotipo");
                  document.getElementById("logo-official").style.display = "block";
-              } else if(URLactual === 'contacto'){
+              } else if(URLactual === '/contacto'){
                   $("logo-official").removeClass("logotipo");
                   document.getElementById("logo-official").style.display = "block";
               }else{
