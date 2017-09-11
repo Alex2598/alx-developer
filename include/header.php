@@ -11,6 +11,7 @@
           <meta content="Alejandro López Arreola" name="author">
             <meta content="Alejandro López Arreola" name="copyright"/>
             <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+            <meta name="google-site-verification" content="WBKEKjqUjBF_ymjqjwEcaZvLue1PgkxJSNnCeW3BzOE" />
             <meta lang="es">
               <meta content="index" name="robots"/>
               <meta content="follow" name="robots"/>
