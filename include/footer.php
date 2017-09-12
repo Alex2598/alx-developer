@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col l6 s12 center">
         <img alt="Logo A L X Developer" class="center" src="imagenes/logo.png" style="width: 50px; margin: 10px;">
-          <h5 class="white-text text-logo-nav center">
+          <h5 class="white-text font-logo center">
             A L X D e v e l o p e r
           </h5>
           <ul>
@@ -43,48 +43,15 @@
   <div class="footer-copyright">
     <div class="container">
       © 2017
-      <span class="text-logo-nav">
+      <span class="font-logo">
         A L X D e v e l o p e r
       </span>
     </div>
   </div>
 </footer>
-<script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript">
-</script>
-<script src="js/materialize.min.js" type="text/javascript">
-</script>
-<script type="text/javascript">
-  $( document ).ready(function(){
-          $('.button-collapse').sideNav();
-          $('.parallax').parallax();
-          $('.materialboxed').materialbox();
-          $('.carousel.carousel-slider').carousel({fullWidth: true});
-          $('.modal').modal();
-         });
-          $(document).ready(function(){
-              var URLactual = window.location.pathname;
-              if(URLactual === '/lenguajes'){
-                 $("logo-official").removeClass("logotipo");
-                 document.getElementById("logo-official").style.display = "block";
-              } else if(URLactual === '/contacto'){
-                  $("logo-official").removeClass("logotipo");
-                  document.getElementById("logo-official").style.display = "block";
-              }else{
-                var scroll;
+<script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src="js/materialize.min.js" type="text/javascript"></script>
+<script src="js/alx-developer.min.js" type="text/javascript"></script>
 
-                $(window).scroll(function(){
-                  scroll = $(window).scrollTop();
-                    if(scroll >= 620){
-                      $('.logotipo').css({"display": "block"});
-                    } else if(scroll >= 244){
-                      $('.logotipo').css({"display": "none"});
-                    }
-                });
-              }
-
-
-
-        });
-</script>
 </body>
 </html>

@@ -13,7 +13,7 @@
       </div>
       <div class="hide-on-med-only hide-on-small-only" style="position: relative;">
         <img id="logo-image-two" src="imagenes/logo.svg" style="width: 220px; margin-left: 15%;">
-          <span class="text-logo-nav white-text" id="text-logo-two" style="margin-left: -35px; position: absolute; margin-top: 50px; font-size: 70px;">
+          <span class="font-logo white-text" id="text-logo-two" style="margin-left: -35px; position: absolute; margin-top: 50px; font-size: 70px;">
             A L X D e v e l o p e r
           </span>
         </img>
@@ -27,16 +27,16 @@
     </div>
     <div class="row">
       <div class="col s12 m6" style="text-align: justify;">
-        <h1 class="header center">
+        <h2 class="header center">
           Acerca de mí
-        </h1>
+        </h2>
         <p class="center materialboxed">
           <img alt="Alejandro López A." class="circle" src="imagenes/foto.png" style="width: 70%;"/>
         </p>
         <div class="card">
           <div class="card-content">
             <h5>
-              Mi nombre es Alejandro López Arreola, soy programador Junior, con 3 años de 
+              Mi nombre es <strong>Alejandro López Arreola</strong>, soy programador Junior, con 3 años de 
                         experiencia he trabajando con lenguajes de programación de bajo y alto nivel, compilados e interpretados.
             </h5>
             <h5 class="center">

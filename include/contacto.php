@@ -1,9 +1,9 @@
 <section>
   <div class="parallax-container">
     <div class="container grey darken-4 white-text center" style="position: relative; top: 25%;">
-      <h1 class="text_parts" style="padding: 15px;">
+      <h2 class="text_parts" style="padding: 15px;">
         ¿Te puedo ayudar?
-      </h1>
+      </h2>
     </div>
     <div class="parallax">
       <img src="imagenes/img4.png"/>
@@ -109,53 +109,6 @@
         </a>
       </div>
     </div>
-  </div>
-  <script type="text/javascript">
-    function validarEmail( email ) {
-           expr = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-          if ( !expr.test(email) ){
-            return false;
-          } else{
-            return true;
-          }
-          }
-
-          function SendMessage(){
-
-            nombre = document.getElementById('name').value;
-            correo = document.getElementById('email').value;
-            mensaje = document.getElementById('message').value;
-
-            if (nombre.length == 0 || correo.length == 0 || mensaje.length == 0) {
-              $('#modal3').modal('open');
-            } else if(!validarEmail(correo)){
-              $('#modal4').modal('open');
-            } else{
-              $.ajax({
-                type: 'POST',
-                url: 'php/send.php',
-                data: $('#form').serialize(),
-
-
-                success:function(respuesta){
-                    if (respuesta==0) {
-                        alert("Variables no definidas.")
-                    } else  if(respuesta==1){
-                      $('#modal2').modal('open');
-                        document.getElementById("form").reset();
-                    } else if(respuesta==2){
-                        alert("Var. correo no definida.");
-                    } else{
-                      alert("Otro error "+respuesta);
-                    }
-                }
-
-
-            });
-            }
-
-          }
-  </script>
   <div class="parallax-container" id="developers">
     <div class="container grey darken-4 white-text center" style="position: relative; top: 25%;">
       <h2 class="text_parts" style="padding: 15px;">

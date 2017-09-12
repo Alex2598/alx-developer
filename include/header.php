@@ -15,22 +15,22 @@
             <meta lang="es">
               <meta content="index" name="robots"/>
               <meta content="follow" name="robots"/>
-              <mata content="<?php print($titulo);?>" property="og:title">
-              </mata>
+              <meta content="<?php print($titulo);?>" property="og:title">
+              </meta>
               <meta content="website" property="og.type"/>
               <meta content="<?php print($descripcion);?>" property="og:description"/>
               <meta content="https://alx-developer.herokuapp.com" property="og:url">
-                <meta content="https://alx-developer.herokuapp.com/imagenes/foto.png" property="og:image">
-                  <meta content="summary_large_image" name="twitter:card">
-                    <meta content="@ale_developerjr" name="twitter:site">
-                      <meta content="@ale_developerjr" name="twitter:creator">
-                        <meta content="<?php print($titulo);?>" name="twitter:title">
-                          <meta content="https://alx-developer.herokuapp.com" name="twitter:url">
-                            <meta content="https://alx-developer.herokuapp.com/imagenes/foto.png" name="twitter:image">
-                              <meta content="<?php print($descripcion);?>" name="twitter:description">
-                                <link href="css/materialize.css" rel="stylesheet" type="text/css">
-                                  <link href="css/estilos.css" rel="stylesheet" type="text/css">
-                                    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+              <meta content="https://alx-developer.herokuapp.com/imagenes/foto.png" property="og:image">
+              <meta content="summary_large_image" name="twitter:card">
+              <meta content="@ale_developerjr" name="twitter:site">
+              <meta content="@ale_developerjr" name="twitter:creator">
+              <meta content="<?php print($titulo);?>" name="twitter:title">
+              <meta content="https://alx-developer.herokuapp.com" name="twitter:url">
+              <meta content="https://alx-developer.herokuapp.com/imagenes/foto.png" name="twitter:image">
+              <meta content="<?php print($descripcion);?>" name="twitter:description">
+              <link href="css/materialize.min.css" rel="stylesheet" type="text/css">
+              <link href="css/alx-developer.min.css" rel="stylesheet" type="text/css">
+              <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
                                       <link href="imagenes/icono.ico" rel="shortcut icon" type="image/x-icon"/>
                                       <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
                                       </link>
@@ -52,22 +52,18 @@
       </meta>
     </meta>
   </head>
-  <body style="overflow-x: hidden;">
+  <body style="overflow-x: hidden !important;">
     <div class="navbar-fixed">
       <div id="power">
       </div>
       <img alt="Power by A L X Developer" id="power" src="imagenes/power.png" style="position: fixed; z-index:99; top: 0; right: 0; border: 0;">
         <nav>
           <div class="nav-wrapper grey darken-4">
-            <a class="brand-logo center text-logo-nav" href="/">
-              <span class="logotipo" id="logo-official" style="display: none;">
-                <i class="material-icons" style="margin-left: -15%; margin-right:-3px; margin-top: 0; margin-bottom:0;">
-                  <img alt="Logo A L X Developer" id="imagen-logo" src="imagenes/logo.png" style="margin: 10px;"/>
-                </i>
-                <spans style="margin-left: -13px;">
+            <a class="brand-logo center font-logo" href="/">
+                <div id="logo-div" class="logo-image-header logotipo"></div>
+                <h1 id="logo-h1" class="title-page logotipo">
                   A L X D e v e l o p e r
-                </spans>
-              </span>
+                </h1>
             </a>
 
             <a class="button-collapse" data-activates="mobile-demo" href="#">

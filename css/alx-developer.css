@@ -1,57 +1,30 @@
-.text-logo-nav {
+.font-logo {
     font-family: 'Quantum';
-    src: url('fonts/Quantum.otf');
+    src: url('../fonts/Quantum.otf');
 }
 
-@media screen and (min-width: 921px) {
-    .text-logo-nav span {
-        font-size: 1em;
-    }
-    #imagen-logo {
-        width: 60%;
-    }
-    .text-logo-dos {
-        font-family: 'Asap Medium';
-        src: url('fonts/Asap-Medium.otf');
-    }
+.logotipo{
+    display: none;
 }
 
-@media screen and (min-width: 522px) {
-    #imagen-logo {
-        width: 45%;
-    }
+.logo-image-header{
+    position: absolute;
+    background-image: url(../imagenes/logo.svg);
+    background-size: 60px;
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+    left: -10%;
 }
 
-@media screen and (min-width: 622px) {
-    #imagen-logo {
-        margin-right: 20px;
-        width: 60%;
-    }
+.title-page{
+    position: relative;
+    font-size: 0.7em;
+    padding-top: 9%;
+    margin: auto;
+    left: 30px;
 }
 
-@media screen and (max-width: 521px) {
-    .text-logo-nav span {
-        font-size: 0.7em;
-    }
-    #imagen-logo {
-        width: 50%;
-    }
-    #power {
-        display: none;
-    }
-    #inicio {
-        font-size: 0.40em;
-    }
-    #logo {
-        width: 10%;
-    }
-    #sub_title, .text_parts {
-        font-size: 1.8em;
-    }
-    .valores {
-        font-size: 1em;
-    }
-}
 
 #design {
     background-image: url('../imagenes/design.png');
@@ -137,6 +110,7 @@
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
     #design {
+        background-color: red;
         -webkit-background-size: 800px;
         -moz-background-size: 800px;
         -o-background-size: 800px;
@@ -217,6 +191,10 @@
     #logo-text {
         font-size: 60px;
     }
+
+    #power {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 708px) and (min-width: 451px) {
@@ -242,6 +220,10 @@
     }
     #logo-text {
         font-size: 50px;
+    }
+
+    #power {
+        display: none;
     }
 }
 
@@ -273,6 +255,10 @@
     #logo-text {
         font-size: 50px;
     }
+
+    #power {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 321px) and (max-width: 380px) {
@@ -302,6 +288,10 @@
     }
     #logo-text {
         font-size: 45px;
+    }
+
+    #power {
+        display: none;
     }
 }
 
@@ -335,5 +325,9 @@
     }
     #logo-header-container {
         margin: 20% auto;
+    }
+
+    #power {
+        display: none;
     }
 }

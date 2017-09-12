@@ -1,9 +1,9 @@
 <section>
   <div class="parallax-container">
     <div class="container grey darken-4 white-text center" style="position: relative; top: 25%;">
-      <h1 class="text_parts" style="padding: 15px;">
+      <h2 class="text_parts" style="padding: 15px;">
         ¿Que lenguajes de programación conozco?
-      </h1>
+      </h2>
     </div>
     <div class="parallax">
       <img src="imagenes/img3.jpg"/>
