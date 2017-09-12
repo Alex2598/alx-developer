@@ -109,6 +109,7 @@
         </a>
       </div>
     </div>
+</div>
   <div class="parallax-container" id="developers">
     <div class="container grey darken-4 white-text center" style="position: relative; top: 25%;">
       <h2 class="text_parts" style="padding: 15px;">
