@@ -51,7 +51,7 @@
         </meta>
       </meta>
     </meta>
-    <script type="text/javascript">
+    <script type="application/ld+json">
       {
         "@context": "http://schema.org",
         "@type": "Person",
