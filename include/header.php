@@ -51,6 +51,18 @@
         </meta>
       </meta>
     </meta>
+    <script type="text/javascript">
+      {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Alejandro López Arreola",
+        "image": "foto.png",
+        "jobTitle": "Programador Junior",
+        "email": "program.alopez@gmail.com",
+        "description": "Programador Junior con 3 años de experiencia, conoce un poco sobre mí vida profesional.",
+        "alternateName": "A L X Developer"
+      }
+    </script>
   </head>
   <body style="overflow-x: hidden !important;">
     <div class="navbar-fixed">
