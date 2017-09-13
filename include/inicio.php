@@ -36,47 +36,11 @@
         <div class="card">
           <div class="card-content">
             <h5>
-              Mi nombre es <strong>Alejandro López Arreola</strong>, soy programador Junior, con 3 años de 
-                        experiencia he trabajando con lenguajes de programación de bajo y alto nivel, compilados e interpretados.
-            </h5>
-            <h5 class="center">
-              <i class="small material-icons">
-                done
-              </i>
-              Sera un gusto asesorarte en alguno de los
-              <a href="/lenguajes">
-                lenguajes
-              </a>
-              de programación que he aprendido.
-            </h5>
-            <h5 class="center">
-              <i class="small material-icons">
-                done
-              </i>
-              También me desempeño como desarrollador.
+              Soy <strong>Alejandro López Arreola</strong>, y soy programador Junior, a lo largo
+              de tres años he aprendido lenguajes de alto y bajo nivel, interpretados y compilados.
             </h5>
           </div>
         </div>
-      </div>
-      <div class="col s12 m6" style="text-align: justify;">
-        <h4 class="header center">
-          Filosofía
-        </h4>
-        <p>
-          Durante los últimos años las Tecnologías de la Información y de la Comunicación (Tics) han estado en constante evolución, por lo que se han generado nuevas formas de vida, en las que día con día nos hacemos mas participes.
-        </p>
-        <p>
-          La Tecnología en nuestra vida diaria se a convertido en algo tan normal como el comer, bañarnos, etc., esto, para muchos de nosotros; el uso de estas nuevas tecnologías puede abarcar muchos aspectos en nuestra vida, en la cual las cosas son un poco mas fáciles, podemos mencionar un ejemplo, la escuela, antes de la llegada del Internet y de su evolución tan grande, tenias que comprar una monografía, biografía, o buscar en algún libro la información que necesitabas, en cambio, ahora solo es cuestión de un 'clic'.
-        </p>
-        <p>
-          Por lo anterior, es de suma importancia el uso adecuado de estas nuevas tecnologías en las sociedades.
-        </p>
-        <h4 class="center">
-          Misión
-        </h4>
-        <p>
-          Continuar la revolución tecnológica vigente para mejorar la vida de las sociedades en el mundo entero.
-        </p>
         <div class="row center">
           <h4 class="center">
             Valores
@@ -106,6 +70,33 @@
             </p>
           </div>
         </div>
+      </div>
+      <div class="col s12 m6" style="text-align: justify;">
+        <p>
+          Mi nombre es <strong>Alejandro López Arreola</strong>, nací y resido actualmente en la Ciudad de México.
+        </p>
+        <p>
+          Egresado del Centro de Estudios Tecnológicos, Industrial y de Servicios No. 153, con un promedio general de calificaciones de 8.8, he desarrollado las habilidades para desempeñarme como programador Junior en el ámbito profesional.
+        </p>
+        <p>   
+          Con un carácter emprendedor y optimista he alcanzado mis metas a corto y largo plazo, con la firme convicción de ser una persona mejor día con día.
+        </p>
+        <p class="center" style="font-size: 1.2em; font-style: italic;"> 
+          "No tengo ningún talento especial, solo soy apasionadamente curioso."</p>
+        <p class="center" style="font-size: 1.2em;"> <strong>Albert Einstein</strong></p>
+        <p class="center" style="font-size: 1.2em; font-style: italic;">
+          "La totalidad de la vida, desde el momento en que nacen hasta el momento de morir, es un proceso de aprendizaje."
+        </p>
+        <p class="center" style="font-size: 1.2em;"><strong>Jiddu KrishnamurtiS</strong></p>
+        <p>
+          Son solo algunas de las frases que me motivan para seguir descubriendo un sinfín de conocimientos.
+        </p>
+        <p> 
+          El proceso formativo por el que he pasado me ha hecho madurar en cada una de mis decisiones; mis fracasos, mis logros y mis esfuerzos, han sido solo una parte de este largo proceso, durante este periodo he comprendido lo maravilloso que puede ser el descubrir nuevos conocimientos y lo satisfactorio que puede ser el decir: <strong>"lo logre"</strong>.  
+
+        </p>
+
+        <p style="font-size: 1.1em;">¿Te gusta la tecnología?, ¿quieres aprender cómo funciona la programación?, ¿no sabes por dónde empezar?, permíteme ayudarte, estos son algunos de los <a href="lenguajes">lenguajes</a> que he aprendido.</p>
       </div>
     </div>
   </div>
