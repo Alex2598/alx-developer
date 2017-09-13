@@ -83,11 +83,12 @@
         </p>
         <p class="center" style="font-size: 1.2em; font-style: italic;"> 
           "No tengo ningún talento especial, solo soy apasionadamente curioso."</p>
-        <p class="center" style="font-size: 1.2em;"> <strong>Albert Einstein</strong></p>
+        <p class="center" style="font-size: 1.2em;"><a href="https://www.google.com.mx/search?q=Albert+Einstein" target="blank"><strong>Albert Einstein</strong></a></p>
         <p class="center" style="font-size: 1.2em; font-style: italic;">
           "La totalidad de la vida, desde el momento en que nacen hasta el momento de morir, es un proceso de aprendizaje."
         </p>
-        <p class="center" style="font-size: 1.2em;"><strong>Jiddu KrishnamurtiS</strong></p>
+        <p class="center" style="font-size: 1.2em;"><a href="https://www.google.com.mx/search?q=Jiddu+Krishnamurti" target="blank"><strong>Jiddu Krishnamurti</strong></a></p>
+
         <p>
           Son solo algunas de las frases que me motivan para seguir descubriendo un sinfín de conocimientos.
         </p>
