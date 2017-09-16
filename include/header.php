@@ -12,7 +12,7 @@
             <meta content="Alejandro López Arreola" name="copyright"/>
             <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
             <meta name="google-site-verification" content="WBKEKjqUjBF_ymjqjwEcaZvLue1PgkxJSNnCeW3BzOE" />
-            <meta lang="es">
+            <meta lang="es-MX">
               <meta content="index" name="robots"/>
               <meta content="follow" name="robots"/>
               <meta content="<?php print($titulo);?>" property="og:title">
@@ -30,6 +30,7 @@
               <meta content="<?php print($descripcion);?>" name="twitter:description">
               <link href="css/materialize.min.css" rel="stylesheet" type="text/css">
               <link href="css/alx-developer.min.css" rel="stylesheet" type="text/css">
+              <link rel="alternate" hreflang="es-MX" href="https://alx-developer.herokuapp.com" />
               <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
                                       <link href="imagenes/icono.ico" rel="shortcut icon" type="image/x-icon"/>
                                       <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
