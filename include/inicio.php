@@ -36,8 +36,8 @@
         <div class="card">
           <div class="card-content">
             <h5>
-              Soy <strong>Alejandro López Arreola</strong>, y soy programador Junior, a lo largo
-              de tres años he aprendido lenguajes de alto y bajo nivel, interpretados y compilados.
+              Soy <strong>Alejandro López Arreola</strong>, programador Junior, a lo largo
+              de mi vida academica he aprendido lenguajes de alto y bajo nivel, interpretados y compilados.
             </h5>
           </div>
         </div>
@@ -47,10 +47,10 @@
           </h4>
           <div class="col s4 m4">
             <p>
-              <img alt="Innovación" src="imagenes/innovacion.jpg" style="width: 40%;"/>
+              <img alt="Puntualidad" src="imagenes/puntualidad.png" style="width: 41%;"/>
             </p>
             <p class="valores">
-              Innovación
+              Puntualidad
             </p>
           </div>
           <div class="col s4 m4">

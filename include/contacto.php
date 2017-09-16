@@ -2,7 +2,7 @@
   <div class="parallax-container">
     <div class="container grey darken-4 white-text center" style="position: relative; top: 25%;">
       <h2 class="text_parts" style="padding: 15px;">
-        ¿Te puedo ayudar?
+        Contáctame
       </h2>
     </div>
     <div class="parallax">
@@ -11,7 +11,7 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col s12 m12">
+      <div class="col s12 m9">
         <h2 class="center">
           Preguntame lo que quieras!
         </h2>
@@ -52,22 +52,18 @@
           </input>
         </form>
       </div>
-    </div>
-    <div class="row">
-      <div class="col s12 m12">
-        <h4 class="center">
-          También puedes encontrarme en...
-        </h4>
-        <p class="center">
-          <a href="https://twitter.com/ale_developerjr" target="blank">
-            <img alt="Twitter Page" src="imagenes/twitter.png" style="width: 10%;">
-            </img>
-          </a>
-          <a href="https://www.instagram.com/alejadro.lopez.arreola/" target="blank">
-            <img alt="Instagram Page" src="imagenes/instagram.png" style="margin-left: 10px; width: 10%;">
-            </img>
-          </a>
-        </p>
+
+      <div class="col s12 m3">
+        <h4 class="center">Mis redes sociales</h4>
+          <p class="center">
+            <a href="https://twitter.com/ale_developerjr" target="blank">
+              <img alt="Twitter Page" src="imagenes/twitter.png" style="width: 30%;">
+            </a>
+            <br>
+            <a href="https://www.instagram.com/alejadro.lopez.arreola/" target="blank">
+              <img alt="Instagram Page" src="imagenes/instagram.png" style="width: 30%;">
+            </a>
+          </p>
       </div>
     </div>
     <div class="modal" id="modal2">

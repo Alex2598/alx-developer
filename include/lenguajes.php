@@ -2,7 +2,7 @@
   <div class="parallax-container">
     <div class="container grey darken-4 white-text center" style="position: relative; top: 25%;">
       <h2 class="text_parts" style="padding: 15px;">
-        ¿Que lenguajes de programación conozco?
+        Lenguajes de programación
       </h2>
     </div>
     <div class="parallax">
@@ -10,11 +10,16 @@
     </div>
   </div>
   <div class="container">
+    <div class="row">
+      <div class="col s12 m12">
+        <h5>Durante 4 años he aprendido distintos lenguajes de programación, algunos más difíciles de  comprender que otros, pero al final, todo es programación y como todo en la vida, nada es difícil de aprender, <span style="font-style: italic;">"el querer es poder"</span>. </h5>
+      </div>
+    </div>
     <div class="row center" style="margin-top: 10px;">
       <div class="col s12 m4">
         <img alt="Lenguaje de Programación C" src="imagenes/c.png">
           <h4>
-            Lenguaje C
+            C y C++
           </h4>
           <p>
             C es un lenguaje de programación originalmente desarrollado por Dennis Ritchie entre 1969 y 1972 en los Laboratorios Bell,2 como evolución del anterior lenguaje B, a su vez basado en BCPL.
@@ -24,7 +29,7 @@
       <div class="col s12 m4">
         <img alt="Lenguaje de Programación Java" src="imagenes/java.png">
           <h4>
-            Lenguaje Java
+            Java
           </h4>
           <p>
             Java es un lenguaje de programación y una plataforma informática comercializada por primera vez en 1995 por Sun Microsystems.
@@ -78,7 +83,7 @@
       <div class="col s12 m6">
         <img alt="Lenguaje de Programación PHP" src="imagenes/php.png">
           <h4>
-            Lenguaje PHP
+            PHP
           </h4>
           <p>
             PHP (acrónimo recursivo de PHP: Hypertext Preprocessor) es un lenguaje de código abierto muy popular especialmente adecuado para el desarrollo web y que puede ser incrustado en HTML.
