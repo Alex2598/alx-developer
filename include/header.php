@@ -57,7 +57,7 @@
         "@context": "http://schema.org",
         "@type": "Person",
         "name": "Alejandro López Arreola",
-        "image": "foto.png",
+        "image": "/imagenes/foto.png",
         "jobTitle": "Programador Junior",
         "email": "program.alopez@gmail.com",
         "description": "Programador Junior con 3 años de experiencia, conoce un poco sobre mí vida profesional.",
