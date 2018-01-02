@@ -42,9 +42,12 @@
   </div>
   <div class="footer-copyright">
     <div class="container">
-      © 2017
+      © 2018
       <span class="font-logo">
         A L X D e v e l o p e r
+      </span>
+      <span>
+        All Rigths Reserved
       </span>
     </div>
   </div>
@@ -52,6 +55,7 @@
 <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
 <script src="js/materialize.min.js" type="text/javascript"></script>
 <script src="js/alx-developer.min.js" type="text/javascript"></script>
+
 
 </body>
 </html>

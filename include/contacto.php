@@ -20,37 +20,39 @@
             ¿Ya eres desarrollador?
           </h4>
         </a>
-        <form id="form">
-          <div class="row">
-            <div class="input-field col s6">
-              <input class="validate" id="name" name="name" placeholder="Nombre" type="text">
-                <label data-error="Este campo es obligatorio"  for="name">
-                  Nombre
+        <div>
+          <form id="form">
+            <div class="row">
+              <div class="input-field col s6">
+                <input class="validate" id="name" name="name" placeholder="Nombre" type="text">
+                  <label data-error="Este campo es obligatorio"  for="name">
+                    Nombre
+                  </label>
+                </input>
+              </div>
+              <div class="input-field col s6">
+                <input class="validate" id="email" name="email" placeholder="Correo electronico" type="email">
+                  <label data-error="Correo electronico incorrecto" for="email">
+                    Correo electronico
+                  </label>
+                  <p>
+                  </p>
+                </input>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea class="materialize-textarea validate" id="message" name="message" placeholder="Escriba su mensaje">
+                </textarea>
+                <label for="message">
+                  Escriba su mensaje
                 </label>
-              </input>
+              </div>
             </div>
-            <div class="input-field col s6">
-              <input class="validate" id="email" name="email" placeholder="Correo electronico" type="email">
-                <label data-error="Correo electronico incorrecto" for="email">
-                  Correo electronico
-                </label>
-                <p>
-                </p>
-              </input>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <textarea class="materialize-textarea validate" id="message" name="message" placeholder="Escriba su mensaje">
-              </textarea>
-              <label for="message">
-                Escriba su mensaje
-              </label>
-            </div>
-          </div>
-          <input class="btn waves-effect waves-light grey darken-4 " onclick="javascript:SendMessage();" type="button" value="Enviar">
-          </input>
-        </form>
+            <input class="btn waves-effect waves-light grey darken-4 " onclick="javascript:SendMessage();" type="button" value="Enviar">
+            </input>
+          </form>
+        </div>
       </div>
 
       <div class="col s12 m3">

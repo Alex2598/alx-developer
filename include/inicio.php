@@ -93,11 +93,11 @@
           Son solo algunas de las frases que me motivan para seguir descubriendo un sinfín de conocimientos.
         </p>
         <p> 
-          El proceso formativo por el que he pasado me ha hecho madurar en cada una de mis decisiones; mis fracasos, mis logros y mis esfuerzos, han sido solo una parte de este largo proceso, durante este periodo he comprendido lo maravilloso que puede ser el descubrir nuevos conocimientos y lo satisfactorio que puede ser el decir: <strong>"lo logre"</strong>.  
+          El proceso formativo por el que he pasado me ha hecho madurar en cada una de mis decisiones; mis fracasos, mis logros y mis esfuerzos, han sido solo una parte de este largo proceso, durante este periodo he descubierto lo maravilloso que es adquirir nuevos conocimientos y lo satisfactorio que es decir <strong><i>lo logre</i></strong>.  
 
         </p>
 
-        <p style="font-size: 1.1em;">¿Te gusta la tecnología?, ¿quieres aprender cómo funciona la programación?, ¿no sabes por dónde empezar?, permíteme ayudarte, estos son algunos de los <a href="lenguajes">lenguajes</a> que he aprendido.</p>
+        <p style="font-size: 1.1em;">¿Te gusta la tecnología?, ¿quieres aprender a programar?, ¿no sabes por dónde empezar?, permíteme ayudarte, estos son algunos de los <a href="lenguajes">lenguajes</a> que he aprendido.</p>
       </div>
     </div>
   </div>

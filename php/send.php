@@ -1,5 +1,8 @@
+
+
 <?php
-if (isset($_POST['email'])) {
+
+/*if (isset($_POST['email'])) {
 
     $email_to      = "program.alopez@gmail.com";
     $email_subject = "A L X Developer - Web Site Contact";
@@ -28,5 +31,5 @@ if (isset($_POST['email'])) {
     //echo "<center><h1>Tu inscripcion fue realizada con exito!</center> </h1>\n";
     //echo "<center><h2>Espera por favor...</h2></center>";
     echo 1;
-//echo "<meta http-equiv='refresh' content='3;URL=contact'>";
+//echo "<meta http-equiv='refresh' content='3;URL=contact'>";*/
 }

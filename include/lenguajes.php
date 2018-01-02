@@ -12,7 +12,8 @@
   <div class="container">
     <div class="row">
       <div class="col s12 m12">
-        <h5>Durante 4 años he aprendido distintos lenguajes de programación, algunos más difíciles de  comprender que otros, pero al final, todo es programación y como todo en la vida, nada es difícil de aprender, <span style="font-style: italic;">"el querer es poder"</span>. </h5>
+        <h5>Durante 4 años he aprendido distintos lenguajes de programación, algunos más difíciles de  comprender que otros, pero al final, con un poco de
+        esfuerzo y dedicación se puede comprender lo incomprendible.</h5>
       </div>
     </div>
     <div class="row center" style="margin-top: 10px;">
@@ -71,7 +72,7 @@
       <div class="col s12 m4">
         <img alt="Lenguaje de Programación Javascript" src="imagenes/js.png">
           <h4>
-            Javascript
+            Javascript, JSON y AJAX
           </h4>
           <p>
             Al igual que HTML, Javascript es un lenguaje de programación que se puede utilizar para construir sitios Web y para hacerlos más interactivos.
