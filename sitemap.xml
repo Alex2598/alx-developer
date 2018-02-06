@@ -8,14 +8,14 @@
 
 <url>
   <loc>https://alx-developer.herokuapp.com/</loc>
-  <changefreq>always</changefreq>
+  <changefreq>never</changefreq>
 </url>
 <url>
   <loc>https://alx-developer.herokuapp.com/lenguajes</loc>
-  <changefreq>always</changefreq>
+  <changefreq>never</changefreq>
 </url>
 <url>
   <loc>https://alx-developer.herokuapp.com/contacto</loc>
-  <changefreq>always</changefreq>
+  <changefreq>never</changefreq>
 </url>
 </urlset>
