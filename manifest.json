@@ -1,0 +1,14 @@
+{
+  "short_name": "ALX Developer",
+  "name": "ALX Developer",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#212121",
+  "theme_color": "#212121",
+  "icons": [{
+    "src": "imagenes/icono.ico",
+    "type": "image/x-icon",
+    "sizes": "256x256"
+  }]
+}

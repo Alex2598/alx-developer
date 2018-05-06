@@ -8,8 +8,8 @@
     <meta charset="utf-8">
     <meta content="<?php print($descripcion);?>" name="description">
     <meta content="<?php print($palabras);?>" name="keywords">
-    <meta content="Alejandro López Arreola" name="author">
-    <meta content="Alejandro López Arreola" name="copyright"/>
+    <meta content="Alejandro Lopez Arreola" name="author">
+    <meta content="Alejandro Lopez Arreola" name="copyright"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <meta name="google-site-verification" content="WBKEKjqUjBF_ymjqjwEcaZvLue1PgkxJSNnCeW3BzOE" />
     <meta lang="es-MX">
@@ -32,12 +32,13 @@
     <link rel="alternate" hreflang="es-MX" href="https://alx-developer.herokuapp.com" />
     <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="imagenes/icono.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="manifest.json" rel="manifest">
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
         "@type": "Person",
-        "name": "Alejandro López Arreola",
+        "name": "Alejandro Lopez Arreola",
         "image": "/imagenes/foto.png",
         "jobTitle": "Programador Junior",
         "email": "program.alopez@gmail.com",
