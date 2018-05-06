@@ -1,6 +1,7 @@
+@import url('https://http://alx-developer.herokuapp.com/fonts/Quantum.otf');
 .font-logo {
     font-family: 'Quantum';
-    src: url('../fonts/Quantum.otf');
+    src: url('http://alx-developer.herokuapp.com/fonts/Quantum.otf');
 }
 
 .logotipo{
