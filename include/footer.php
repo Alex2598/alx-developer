@@ -42,12 +42,11 @@
   </div>
   <div class="footer-copyright">
     <div class="container">
-      © 2018
       <span class="font-logo">
         A L X D e v e l o p e r
       </span>
       <span>
-        All Rigths Reserved
+        | © 2018 | All Rigths Reserved
       </span>
     </div>
   </div>

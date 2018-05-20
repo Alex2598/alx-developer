@@ -1,7 +1,12 @@
-@import url('https://http://alx-developer.herokuapp.com/fonts/Quantum.otf');
+@font-face {
+    font-family: 'quantumregular';
+    src: url('../fonts/quantum-webfont.woff2') format('woff2'),
+         url('../fonts/quantum-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 .font-logo {
-    font-family: 'Quantum';
-    src: url('http://alx-developer.herokuapp.com/fonts/Quantum.otf');
+    font-family: 'quantumregular';
 }
 
 .logotipo{
@@ -49,6 +54,12 @@
 
 #logo-header-container {
     text-align: center;
+}
+
+.languages-list-image{
+    float: left;
+    width: 45px;
+    height: 45px;
 }
 
 @media screen and (min-width: 1301px) and (max-width: 1500px) {

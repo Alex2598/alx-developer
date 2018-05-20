@@ -1,57 +1,27 @@
 <section>
   <div class="parallax-container">
     <div class="container grey darken-4 white-text center" style="position: relative; top: 25%;">
-      <h2 class="text_parts" style="padding: 15px;">
-        Contáctame
-      </h2>
     </div>
     <div class="parallax">
-      <img src="imagenes/img4.png"/>
+      <img src="imagenes/img6.jpg"/>
     </div>
   </div>
   <div class="container">
     <div class="row">
       <div class="col s12 m9">
-        <h2 class="center">
+        <h1 class="text_parts">
+        Contacto
+        </h1>
+        <h2>
           Preguntame lo que quieras!
         </h2>
         <a href="#developers">
-          <h4 class="center">
+          <h4>
             ¿Ya eres desarrollador?
           </h4>
         </a>
         <div>
-          <form id="form">
-            <div class="row">
-              <div class="input-field col s6">
-                <input class="validate" id="name" name="name" placeholder="Nombre" type="text">
-                  <label data-error="Este campo es obligatorio"  for="name">
-                    Nombre
-                  </label>
-                </input>
-              </div>
-              <div class="input-field col s6">
-                <input class="validate" id="email" name="email" placeholder="Correo electronico" type="email">
-                  <label data-error="Correo electronico incorrecto" for="email">
-                    Correo electronico
-                  </label>
-                  <p>
-                  </p>
-                </input>
-              </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <textarea class="materialize-textarea validate" id="message" name="message" placeholder="Escriba su mensaje">
-                </textarea>
-                <label for="message">
-                  Escriba su mensaje
-                </label>
-              </div>
-            </div>
-            <input class="btn waves-effect waves-light grey darken-4 " onclick="javascript:SendMessage();" type="button" value="Enviar">
-            </input>
-          </form>
+         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeom5wYefvrdjx7JsZR-y61Yun_ydT2HaQSNqcmDDAIWo1SNg/viewform?embedded=true" width="700" height="1000" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
         </div>
       </div>
 
@@ -108,17 +78,10 @@
       </div>
     </div>
 </div>
-  <div class="parallax-container" id="developers">
-    <div class="container grey darken-4 white-text center" style="position: relative; top: 25%;">
-      <h2 class="text_parts" style="padding: 15px;">
+  <div class="container" id="developers">
+    <h2 class="center">
         Para desarrolladores
-      </h2>
-    </div>
-    <div class="parallax">
-      <img src="imagenes/img6.jpg"/>
-    </div>
-  </div>
-  <div class="container">
+    </h2>
     <h3 class="center">
       ¿Eres programador Junior?
     </h3>

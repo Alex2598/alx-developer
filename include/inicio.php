@@ -27,13 +27,13 @@
     </div>
     <div class="row">
       <div class="col s12 m6" style="text-align: justify;">
-        <h2 class="header center">
-          Acerca de mí
-        </h2>
-        <p class="center materialboxed">
-          <img alt="Alejandro López A." class="circle" src="imagenes/foto.png" style="width: 70%;"/>
-        </p>
         <div class="card">
+          <h1 class="header center">
+            Acerca de mí
+          </h1>
+          <p class="center materialboxed">
+            <img alt="Alejandro López A." class="circle" src="imagenes/foto.png" style="width: 70%;"/>
+          </p>
           <div class="card-content">
             <h5>
               Soy <strong>Alejandro López Arreola</strong>, programador Junior, a lo largo

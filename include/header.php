@@ -1,6 +1,6 @@
 <?php include 'php/script.php';?>
 <!DOCTYPE html>
-<html>
+<html lang="es-MX">
   <head>
     <title>
       <?php print($titulo);?>
@@ -15,6 +15,7 @@
     <meta lang="es-MX">
     <meta content="index" name="robots"/>
     <meta content="follow" name="robots"/>
+    <meta content="#212121" name="theme-color"/>
     <meta content="<?php print($titulo);?>" property="og:title">
     <meta content="website" property="og.type"/>
     <meta content="<?php print($descripcion);?>" property="og:description"/>
@@ -28,7 +29,7 @@
     <meta content="https://alx-developer.herokuapp.com/imagenes/foto.png" name="twitter:image">
     <meta content="<?php print($descripcion);?>" name="twitter:description">
     <link href="css/materialize.min.css" rel="stylesheet" type="text/css">
-    <link href="css/alx-developer.min.css" rel="stylesheet" type="text/css">
+    <link href="css/alx-developer.css" rel="stylesheet" type="text/css">
     <link rel="alternate" hreflang="es-MX" href="https://alx-developer.herokuapp.com" />
     <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="imagenes/icono.ico" rel="shortcut icon" type="image/x-icon"/>
